@@ -1,0 +1,127 @@
+<HTML>
+</HEAD>
+ <TITLE>6-1.html</TITLE>
+</HEAD>
+<BODY LEFTMARGIN="0" TOPMARGIN="0" MARGINWIDTH="0" MARGINHEIGHT="0">
+<CENTER>
+<IMG SRC="signin.jpg" WIDTH="580" HEIGHT="90" BORDER=0 ALT=""><BR>
+<TABLE WIDTH="600" CELLPADDING="5" CELLSPACING="1" BGCOLOR="#CCCCCC">
+	<TR>
+		<TD COLSPAN="2"><FONT COLOR="#FFFFFF"><B>¢Â basic info</B></FONT></TD> 		
+	</TR>
+	<!-- id -->
+	<TR>
+		<TD ALIGN ="right"  BGCOLOR="#F4F4F4"><FONT COLOR="#FF9900">*</FONT>your ID&nbsp;</TD> 
+		<TD BGCOLOR="#FFFFFF">
+			<INPUT TYPE=""text"" MAXLENGTH="12" NAME="userid">
+			<INPUT TYPE="image" SRC="check.jpg">&nbsp;
+			<FONT COLOR="#FF9900" size="2">(4~12 character)</FONT>
+		</TD>
+	</TR>
+	<!-- pw -->
+	<TR>
+		<TD ALIGN ="right"  BGCOLOR="#F4F4F4"><FONT COLOR="#FF9900">*</FONT>password&nbsp;</TD> 
+		<TD BGCOLOR="#FFFFFF">
+			<INPUT TYPE="password" MAXLENGTH="8" NAME="password1">&nbsp;
+			<FONT COLOR="#FF9900" size="2">((4~12 character)</FONT>
+		</TD>
+	</TR>
+	<!-- password check -->
+	<TR>
+		<TD ALIGN ="right"  BGCOLOR="#F4F4F4"><FONT COLOR="#FF9900">*</FONT>password check&nbsp;</TD> 
+		<TD BGCOLOR="#FFFFFF">
+			<INPUT TYPE="password" MAXLENGTH="8" NAME="password2">&nbsp;
+			<FONT COLOR="#FF9900" size="2">((4~12 character)</FONT>
+		</TD>
+	</TR>
+	<!-- name -->
+	<TR>
+		<TD ALIGN ="right"  BGCOLOR="#F4F4F4"><FONT COLOR="#FF9900">*</FONT>name&nbsp;</TD>
+		<TD BGCOLOR="#FFFFFF">
+			<INPUT TYPE=""text"" MAXLENGTH="30" NAME="NAMEkor">&nbsp;
+			<FONT COLOR="#FF9900" size="2">(e.g: john)</FONT>
+		</TD>
+	</TR>
+	<!-- e-mail -->
+	<TR> 
+	  <TD ALIGN ="right"  BGCOLOR="#F4F4F4"><FONT COLOR="#FF9900">*</FONT>e-mail&nbsp;</TD> 
+	  <TD BGCOLOR="#FFFFFF"><INPUT TYPE="text" MAXLENGTH="35"  NAME="email" SIZE="35" ></TD>
+	</TR>
+	<!-- private info -->
+	<TR>
+		<TD COLSPAN="2"><FONT COLOR="#FFFFFF"><B>¢Â private info</B></FONT></TD> 		
+	</TR>
+	<!-- addr -->
+	<TR>
+	  <TD ALIGN ="right"  BGCOLOR="#F4F4F4">addr&nbsp;</TD> 
+	  <TD BGCOLOR="#FFFFFF">
+		<INPUT TYPE="text" MAXLENGTH="15" NAME="jobpostno" SIZE="15" READONLY>&nbsp;
+		<INPUT TYPE="button" VALUE="postal code"><BR>
+		<INPUT TYPE=""text"" MAXLENGTH="55"  NAME="jobaddr" SIZE="55">&nbsp;
+	  </TD>
+	</TR>
+	<!-- cell phone -->
+	<TR>
+	  <TD ALIGN ="right"  BGCOLOR="#F4F4F4">cell phone&nbsp;</TD> 
+	  <TD BGCOLOR="#FFFFFF">
+	    <INPUT TYPE="text" MAXLENGTH="5"  NAME="hptel1" SIZE="5" >&nbsp;-
+	    <INPUT TYPE="text" MAXLENGTH="5"  NAME="hptel2" SIZE="5" >&nbsp;-
+		<INPUT TYPE="text" MAXLENGTH="12" NAME="hptel3" SIZE="12">	
+	</TR>
+	<!-- job -->
+	<TR>
+		<TD ALIGN ="right"  BGCOLOR="#F4F4F4">job&nbsp;</TD>
+		<TD BGCOLOR="#FFFFFF">
+			<SELECT NAME="job">
+			<OPTION VALUE=""selected >choose your job</OPTION>
+			<OPTION VALUE="0">student</OPTION>
+			<OPTION VALUE="1">baby</OPTION>
+			<OPTION VALUE="2">computer</OPTION>
+			<OPTION VALUE="3">media</OPTION>
+			<OPTION VALUE="4">officer</OPTION>
+			<OPTION VALUE="5">soldier</OPTION>
+			<OPTION VALUE="6">service</OPTION>
+			<OPTION VALUE="7">edu</OPTION>
+			<OPTION VALUE="19">sports</OPTION>
+		</SELECT>	  
+	  </TD>
+	</TR>
+	<!-- hobby -->
+	<TR> 
+	  <TD ALIGN ="right"  BGCOLOR="#F4F4F4">hoggy&nbsp;</TD> 
+	  <TD BGCOLOR="#FFFFFF">
+	    <INPUT TYPE="checkbox" value="1" NAME="hobby1">book reading
+	    <INPUT TYPE="checkbox" value="2" NAME="hobby2">jogging
+	    <INPUT TYPE="checkbox" value="3" NAME="hobby3">guitar
+		<INPUT TYPE="checkbox" value="4" NAME="hobby4">boxing
+	  </TD>
+	</TR>
+	<!-- incoming route -->
+	<TR> 
+	  <TD ALIGN ="right"  BGCOLOR="#F4F4F4">incoming route&nbsp;</TD> 
+	  <TD BGCOLOR="#FFFFFF">
+	    <INPUT TYPE="radio" value="1" NAME="inputpath">TV
+	    <INPUT TYPE="radio" value="2" NAME="inputpath">internet
+	    <INPUT TYPE="radio" value="3" NAME="inputpath">friend
+		<INPUT TYPE="radio" value="4" NAME="inputpath">etc
+	  </TD>
+	</TR>
+	<!-- greeting -->
+	<TR> 
+	  <TD ALIGN ="right"  BGCOLOR="#F4F4F4" VALIGN="top">welcome message&nbsp;</TD> 
+	  <TD BGCOLOR="#FFFFFF"><TEXTAREA NAME="" ROWS="2" COLS="60"></TEXTAREA></TD>
+	</TR>
+	<!-- photo upload -->
+	<TR> 
+	  <TD ALIGN ="right"  BGCOLOR="#F4F4F4" VALIGN="top">photo upload &nbsp;</TD> 
+	  <TD BGCOLOR="#FFFFFF"><INPUT TYPE="file" NAME="photo"></TD>
+	</TR>
+	<TR BGCOLOR="#FFFFFF">
+	  <TD HEiGHT="30" COLSPAN=2 ALIGN="center">
+		<INPUT TYPE="submit" NAME="regist" VALUE="join">
+		<INPUT TYPE="reset" NAME="cancle" VALUE="cancle"></TD>
+	</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

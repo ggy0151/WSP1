@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>assignment0423</title>
+    <style>
+    table {
+      background-color: #FFFFFF;
+      border-right : 2px solid black;
+      border-bottom : 2px solid black;
+      border-top: 2px solid gray;
+      border-left: 2px solid gray;
+      border-spacing: 3px;
+     }
+     .col1{
+       width:50px;
+     }
+     .col2{
+       width:300px;
+     }
+     .col3{
+       width:60px;
+     }
+     .col4, .col5{
+       width:25px;
+     }
+     #td1{
+      background-color: red;
+     }
+     #td2{
+       background-color: blue;
+     }
+     #td3{
+       background-color : green;
+     }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>table assignment 4.23</h1>
+    </header>
+    <section>
+      <table width = "460" cellspacing="1" border="1px">
+        <tr align = "center" cellpadding = "5">
+          <th class = "col1"></th>
+          <th class = "col2" >name</th>
+          <th class ="col3">a</th>
+          <th class = "col4">b</th>
+          <th class = "col5">c</th>
+        </tr>
+        <tr align = "left">
+          <td id = "td1" class = "col1"></td>
+          <td class = "col2">11111</td>
+          <td class = "col3">111</td>
+          <td class = "col4">112</td>
+          <td class = "col5">113</td>
+        </tr>
+        <tr align = "left">
+          <td id = "td2" class = "col1"></td>
+          <td class = "col2">22222</td>
+          <td class = "col3">221</td>
+          <td class = "col4">222</td>
+          <td class = "col5">223</td>
+        </tr>
+        <tr align = "left">
+          <td id = "td3" class = "col1"></td>
+          <td class = "col2">33333</td>
+          <td class = "col3">331</td>
+          <td class = "col4">332</td>
+          <td class = "col5">333</td>
+        </tr>
+        <tr align = "left">
+          <td class = "col1">aaaaaa</td>
+          <td class = "col2"></td>
+          <td class = "col3" rowspan="2">rowspan<br>bbbbb</td>
+        </tr>
+        <tr align = "left">
+          <td class = "col1">a</td>
+          <td class = "col2">a</td>
+          <td class = "col4">a</td>
+        </tr>
+        <tr align = "left">
+          <td class = "col1" colspan="2">colspan ccccc</td>
+          <td class = "col3"></td>
+        </tr>        
+      </table>
+    </section>
+  </body>
+</html>

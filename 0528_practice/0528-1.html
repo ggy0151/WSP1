@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>selector</title>
+<style>
+h3, li { /* tag name selector */
+	color : brown;
+}
+div > div > strong { /* child selector */
+	background : yellow;
+}
+ul strong { 
+	color : dodgerblue;
+}
+.warning { /* class selector */
+	color : red;
+}
+body.main { /* class selector */
+	 background : aliceblue; 
+}
+#list { /* id selector */
+	background : mistyrose;
+}
+#list span{ /* child selector */
+	color : forestgreen;
+}
+h3:first-letter { /* Pseudo class selector*/
+	color : red;
+} 
+li:hover { /* Pseudo class selector */
+	background : yellowgreen;
+}
+</style></head>
+<body class="main">
+<h3>Web Programming</h3>
+<hr>
+<div> 
+	<div>wsp1 <strong>wsp2</strong>wsp3</div>
+	<ul id="list">
+ 		<li><span>HTML5</span></li>
+		<li><strong>CSS</strong></li>
+		<li>JAVASCRIPT</li>
+	</ul>
+	<div class="warning">wsp1</div>
+</div>
+</body>
+</html>

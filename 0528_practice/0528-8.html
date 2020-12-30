@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head><title>border-radius</title>
+<style>
+p {
+	background : #90D000;
+	width : 300px;
+	padding : 20px; 
+}
+#round1 { border-radius : 50px; }
+#round2 { border-radius : 0px 20px 40px 60px; }
+#round3 { border-radius : 0px 20px 40px; }
+#round4 { border-radius : 0px 20px; }
+#round5 { border-radius : 50px; 
+					border-style : dotted; }
+</style>
+</head>
+<body>
+<h3>border-radius</h3>
+<hr>
+<p id="round1">radius 50px</p>
+<p id="round2">radius 0, 20, 40, 60 px</p>
+<p id="round3">radius 0, 20, 40, 20 px</p>
+<p id="round4">radius 0, 20, 0, 20 px</p>
+<p id="round5">radius 50px, dot</p>
+</body>
+</html>
